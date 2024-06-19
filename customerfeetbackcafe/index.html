@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cafe Customer Feedback</title>
+</head>
+<body>
+    <h1>Cafe Customer Feedback Form</h1>
+    <form action="submit_feedback" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="food_quality">How would you rate the quality of the food?</label><br>
+        <input type="radio" id="excellent_food" name="food_quality" value="excellent" required>
+        <label for="excellent_food">Excellent</label><br>
+        <input type="radio" id="good_food" name="food_quality" value="good">
+        <label for="good_food">Good</label><br>
+        <input type="radio" id="average_food" name="food_quality" value="average">
+        <label for="average_food">Average</label><br>
+        <input type="radio" id="poor_food" name="food_quality" value="poor">
+        <label for="poor_food">Poor</label><br><br>
+        
+        <label for="service">How would you rate the service?</label><br>
+        <input type="radio" id="excellent_service" name="service" value="excellent" required>
+        <label for="excellent_service">Excellent</label><br>
+        <input type="radio" id="good_service" name="service" value="good">
+        <label for="good_service">Good</label><br>
+        <input type="radio" id="average_service" name="service" value="average">
+        <label for="average_service">Average</label><br>
+        <input type="radio" id="poor_service" name="service" value="poor">
+        <label for="poor_service">Poor</label><br><br>
+        
+        <label for="suggestions">Do you have any suggestions for improvement?</label><br>
+        <textarea id="suggestions" name="suggestions" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Submit Feedback">
+    </form>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+</head>
+<body>
+  <table id="header" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#99D1D0">
+    <tr>
+      <td>
+        <h1 align="center">Survey Form</h1>
+      </td>
+    </tr>
+  </table>
+  <h3 align="center">Let us know how we can improve free CodingCamp</h3>
+  <form action="">
+    <table class="form-table" align="center"> 
+      <tr>
+        <td align="right">Name:</td>
+        <td><input type="text" placeholder="Enter your name.." ></td>
+      </tr>
+      <tr>
+        <td align="right">Email:</td>
+        <td><input type="email" placeholder="Enter your Email.."></td>
+      </tr>
+      <tr>
+        <td align="right">Age:</td>
+        <td><input type="number" id="age" name="age" min="1" max="100" step="1" value="25"></td>
+      </tr>
+      <tr>
+        <td align="right">Which option best describes your current role?</td>
+        <td>
+          <select>
+            <option value="student">Student</option>
+            <option value="professional">Professional</option>
+            <option value="other">Other</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>How likely is that you would recommends</td>
+        <td><input type="radio" name="12">Definitely</td>
+    </tr>
+    <tr>
+        <td>freeCodeCamp to a friend</td>
+        <td><input type="radio" name="12">Maybe</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="radio" name="12">Not sure</td>
+    </tr>
+    <tr>
+        <td>What do you like most in FCC:</td><td><select><option>
+            select an option <option></option>
+          </option></select></td>
+      </tr>
+      <tr>
+          <tr>
+              <td>Things that should be imporved in the feture <td><input name="1" type="checkbox">Front-end Projects</td></td>
+          </tr>
+          <tr>
+              <td>(Chick all that apply): <td><input name="1" type="checkbox">Back-end Projects</td></td>
+          </tr>
+          <tr>  
+            <td></td><td><input type="checkbox" name="1">Data Visualization</td>
+        </tr>
+    </table>
+    </table>
+  </form>
+</body>
+</html>

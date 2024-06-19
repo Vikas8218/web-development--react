@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Retail Job Application</title>
+</head>
+<body>
+    <h1>Retail Job Application Form</h1>
+    <form action="submit_application" method="post">
+        <!-- Personal Information -->
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" required><br><br>
+            
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address" rows="3" cols="50" required></textarea><br><br>
+        </fieldset>
+        <!-- Work Experience -->
+        <fieldset>
+            <legend>Work Experience</legend>
+            <label for="experience">Describe your previous work experience:</label><br>
+            <textarea id="experience" name="experience" rows="5" cols="50" required></textarea><br><br>
+        </fieldset>
+
+        <!-- Availability -->
+        <fieldset>
+            <legend>Availability</legend>
+            <label for="availability">When are you available to start?</label><br>
+            <input type="date" id="availability" name="availability" required><br><br>
+            
+            <label for="hours">What hours are you available to work?</label><br>
+            <input type="checkbox" id="morning" name="hours" value="morning">
+            <label for="morning">Morning</label><br>
+            
+            <input type="checkbox" id="afternoon" name="hours" value="afternoon">
+            <label for="afternoon">Afternoon</label><br>
+            
+            <input type="checkbox" id="evening" name="hours" value="evening">
+            <label for="evening">Evening</label><br>
+            
+            <input type="checkbox" id="weekends" name="hours" value="weekends">
+            <label for="weekends">Weekends</label><br><br>
+        </fieldset>
+
+        <input type="submit" value="Submit Application">
+    </form>
+</body>
+</html>

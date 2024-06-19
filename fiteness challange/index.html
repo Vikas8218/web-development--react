@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fitness Challenge Sign-Up Form</title>
+</head>
+<body>
+    <h1 align="center">Fitness Challenge Sign-Up</h1>
+    <form action="/submit-sign-up" method="post">
+        <!-- Personal Details Section -->
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required><br><br>
+            
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required><br><br>
+            
+            <label for="age">Age Year:</label>
+            <input type="number" id="age" name="age" required><br><br>
+            
+            <label for="email">Email id:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="phone">Phone No:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+        </fieldset>
+        <!-- Fitness Goals Section -->
+        <fieldset>
+            <legend>Fitness Goals</legend>
+            <label for="fitnessGoals">What are your fitness goals?</label><br>
+            <textarea id="fitnessGoals" name="fitnessGoals" rows="4" cols="50" required></textarea><br><br>
+        </fieldset>
+        
+        <!-- Preferred Workout Times Section -->
+        <fieldset>
+            <legend>Preferred Workout Times</legend>
+            <label for="workoutTimes">When do you prefer to work out?</label><br>
+            <input type="checkbox" id="morning" name="workoutTimes" value="morning">
+            <label for="morning">Morning</label><br>
+            
+            <input type="checkbox" id="afternoon" name="workoutTimes" value="afternoon">
+            <label for="afternoon">Afternoon</label><br>
+            
+            <input type="checkbox" id="evening" name="workoutTimes" value="evening">
+            <label for="evening">Evening</label><br>
+            
+            <input type="checkbox" id="weekends" name="workoutTimes" value="weekends">
+            <label for="weekends">Weekends</label><br><br>
+        </fieldset>
+        
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+</html>
