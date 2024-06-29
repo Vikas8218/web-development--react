@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      margin-top: 3px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    #main {
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    .child {
+      width: 200px;
+      height: 290px;
+      padding: 0;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin: 10px 10px;
+      border-radius: 15px;
+    }
+    .image {
+      width: 200px;
+      height: 200px;
+    }
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 15px;
+    }
+    .name {
+      text-align: center;
+    }
+    .name > h4 {
+      
+      margin-top: 20px;
+      font-size: 21px;
+    }
+    .name > p {
+      font-size: 20px;
+      margin: 10px 0;
+    }
+    .abc{
+      background-color: red;
+      margin:30px;
+      border-radius: 3px;
+      width: 80px;
+      height: 35px;
+    }
+    .row-1{
+      display: flex;
+      flex-direction:row;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Meet our Mentors</h2>
+    <h4>Being Developer themselves, the curriculum Team is <br>
+       an experienced group of instructors teaching.</h4>
+  </header>
+  <div id="main">
+    <div class="row-1" >
+    <div class="child">
+      <div class="image">
+        <img src="vikas.jpg" alt="Vikas Saini">
+      </div>
+      <div class="name">
+        <h4>Vikas Saini</h4>
+        <p>Nagroo</p>
+      </div>
+    </div>
+    <div class="child">
+      <div class="image">
+        <img src="akash1.jpg" alt="Aakash Kumar">
+      </div>
+      <div class="name">
+        <h4>Aakash Kumar</h4>
+        <p>Google</p>
+      </div>
+    </div>
+    <div class="child">
+      <div class="image">
+        <img src="manish.jpg" alt="Manish Kumar">
+      </div>
+      <div class="name">
+        <h4>Manish Kumar</h4>
+        <p>Microsoft</p>
+      </div>
+    </div>
+    <div class="child">
+      <div class="image">
+        <img src="sohit.jpg" alt="Sohit Kumar">
+      </div>
+      <div class="name">
+        <h4>Sohit Kumar</h4>
+        <p>TCL</p>
+      </div>
+    </div>
+    </div>
+    <div class="row-1">
+    <div class="child">
+      <div class="image">
+        <img src="https://t4.ftcdn.net/jpg/03/26/98/51/360_F_326985142_1aaKcEjMQW6ULp6oI9MYuv8lN9f8sFmj.jpg" alt="deepak Saini">
+      </div>
+      <div class="name">
+        <h4>Deepak Saini</h4>
+        <p>HCL</p>
+      </div>
+    </div>
+    <div class="child">
+      <div class="image">
+        <img src="https://www.shutterstock.com/image-photo/portrait-handsome-caucasian-man-formal-260nw-2142820441.jpg" alt="Pardeep Kumar">
+      </div>
+      <div class="name">
+        <h4>Pardeep Kumar</h4>
+        <p>Google</p>
+      </div>
+    </div>
+    <div class="child">
+      <div class="image">
+        <img src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg" alt="Sumit Kumar">
+      </div>
+      <div class="name">
+        <h4>Manish Kumar</h4>
+        <p>Microsoft</p>
+      </div>
+    </div>
+    <div class="child">
+      <div class="image">
+        <img src="https://media.istockphoto.com/id/1358997053/photo/young-man-stock-phooto.jpg?s=612x612&w=0&k=20&c=Kskttzr6QK73-XqgHbVLHKIPCt__pr399wVTivSiRcM=" alt="Monit Kumar">
+      </div>
+      <div class="name">
+        <h4>Monit Kumar</h4>
+        <p>TCL</p>
+      </div>
+    </div>
+    </div>
+  </div>
+  <button class="abc">See more ></button>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 30px;
+      margin-top: 3px;
+    }
+    #main {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      margin-bottom: 20px;
+    }
+    .child {
+      width: 350px;
+      height: 580px;
+      padding:0;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .image {
+      width: 350px;
+      height: 400px;
+    }
+    img {
+      width: 350px;
+      height: 400px;
+      object-fit: cover;
+    }
+    .name {
+      text-align: center;
+    }
+    .name > h4 {
+      margin-top: 20px;
+      font-size: 21px;
+    }
+    .name > p {
+      font-size: 20px;
+      margin: 10px 0;
+    }
+    button {
+      background-color: rgb(42, 171, 193);
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      color: white;
+      font-size: 1em;
+    }
+  </style>
+</head>
+<body>
+  <div id="main">
+    <div class="child">
+      <div class="image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Ig38XB77wBepUPm-k7M6hbVWtArBiElr0w&s" alt="error">
+      </div>
+      <div class="name">
+        <h4>Doctor Strange 2</h4>
+        <p>Rating 4.5</p>
+        <button> <a href="https://www.imdb.com/title/tt9419884/" target="_blank">Book now</a></button>
+      </div>
+    </div>
+    <div class="child">
+      <div class="image">
+        <img src="https://assetscdn1.paytm.com/images/cinema/bb2--705x750-cbc15240-8a94-11ec-8efd-6d205f33f529.jpg" alt="error">
+      </div>
+      <div class="name">
+        <h4>Bhool Bhulaiyaa 2</h4>
+        <p>Rating 4.5</p>
+        <button><a href="https://www.imdb.com/title/tt0995031" target="_blank">Book now</a></button>
+      </div>
+    </div>
+    <div class="child">
+      <div class="image">
+        <img src="https://assetscdn1.paytm.com/images/cinema/Jayeshbhai-Jordaar---705x750-660c01c0-cf7c-11ec-98b3-41c37f260d1c.jpg" alt="error">
+      </div>
+      <div class="name">
+        <h4>Jayeshbhai Jordaar</h4>
+        <p>Rating 4.5</p>
+        <button> <a href="https://www.imdb.com/title/tt10393870/" target="_blank">Book now</a></button>
+      </div>
+    </div>
+  </div>
+  <div id="main">
+    <div class="child">
+      <div class="image">
+        <img src="https://assetscdn1.paytm.com/images/cinema/Jurassic-World--Dominion-705x750-b554ee90-cd51-11ec-8d22-2363945d80ef.jpg" alt="error">
+      </div>
+      <div class="name">
+        <h4>Jurasic World</h4>
+        <p>Rating 4.5</p>
+        <button> <a href="https://www.imdb.com/title/tt0369610/" target="_blank">Book now</a></button>
+      </div>
+    </div>
+    <div class="child">
+      <div class="image">
+        <img src="https://assetscdn1.paytm.com/images/cinema/KGF-705x750-76008750-b6fd-11ec-9639-8322852eadd4.jpg" alt="error">
+      </div>
+      <div class="name">
+        <h4>KGF 2</h4>
+        <p>Rating 4.9</p>
+        <button> <a href="https://www.youtube.com/watch?v=S2vqMC81AHE" target="_blank">Book now</a></button>
+      </div>
+    </div>
+    <div class="child">
+      <div class="image">
+        <img src="https://assetscdn1.paytm.com/images/cinema/RRR-North-705x750-fd78d9c0-693d-11ec-bbcd-5d122dc4018b.jpg" alt="error">
+      </div>
+      <div class="name">
+        <h4>RRR</h4>
+        <p>Rating 4.9</p>
+        <button> <a href="https://www.youtube.com/watch?v=yhUOqNjDz8I" target="_blank">Book now</a></button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
